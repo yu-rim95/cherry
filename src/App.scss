@@ -1,0 +1,274 @@
+/* reset.css */
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+a, button {
+    text-decoration:none;
+    color: inherit; 
+}
+body{background-color:#000}
+// nav-style
+.nav-style{
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        a{
+            text-align: center;
+            width: 80px;
+            display: inline-block;
+            padding-top: 10px;
+            :hover{
+                background-color: rgb(69, 112, 71);
+            }
+            &.active{
+              background-color: rgb(69, 112, 71);
+            }
+            >svg{
+                width: 30px;
+                background-color: #d5ebd6fa;
+                height: 30px;
+                padding: 10px;
+                border-radius: 30px;
+            }
+            >p{
+                font-family: "Bebas Neue";
+                margin-top:8px;
+                text-align: center;
+                color: #d5ebd6fa;
+            }
+        }
+    }
+}
+
+@font-face{
+    font-family: "Bebas Neue";
+    src: url(./assets/fonts/BebasNeue-Regular.ttf);
+}
+:root{
+    --font--BebasNeue:"BebasNeue";
+}
+// home
+.glitch{
+    color:white;
+    font-size:100px;
+    position:relative;
+    width: 50%;
+    margin:200px auto;
+  }
+  @keyframes noise-anim{
+    $steps:20;
+    @for $i from 0 through $steps{
+      #{percentage($i*(1/$steps))}{
+        clip:rect(random(100)+px,9999px,random(100)+px,0);
+      }
+    }
+  }
+  .glitch:after{
+    content:attr(data-text);
+    position:absolute;
+    left:2px;
+    text-shadow:-1px 0 red;
+    top:0;
+    color:white;
+    background:black;
+    overflow:hidden;
+    clip:rect(0,900px,0,0); 
+    animation:noise-anim 2s infinite linear alternate-reverse;
+  }
+  
+  @keyframes noise-anim-2{
+    $steps:20;
+    @for $i from 0 through $steps{
+      #{percentage($i*(1/$steps))}{
+        clip:rect(random(100)+px,9999px,random(100)+px,0);
+      }
+    }
+  }
+  .glitch:before{
+    content:attr(data-text);
+    position:absolute;
+    left:-2px;
+    text-shadow:1px 0 blue; 
+    top:0;
+    color:white;
+    background:black;
+    overflow:hidden;
+    clip:rect(0,900px,0,0); 
+    animation:noise-anim-2 3s infinite linear alternate-reverse;
+  }
+
+//   about_main
+  .about_main{
+    margin-top: 80px;
+    div{
+        display: flex;
+        justify-content: space-evenly;
+        .y_txt{
+            width: 50%;
+            // text-align: center;
+            // padding: 50px 0;
+            // color: #fff;
+            .txt_typing{
+                font-size: 20px;
+                min-width:11px;
+                white-space: nowrap;
+                margin: 0;
+                position: fixed;
+                color: transparent;
+                top:35%;
+                width: 200px;
+                &::before{
+                    content: "안녕하세요 최유림입니다!";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    color: #fff;
+                    overflow: hidden;
+                    border-right: 1px solid #fff;
+                    animation: typing 6s steps(31);
+                }
+            }
+            .txt_fadein{
+                // width: 200px;
+                position: absolute;
+                top: 45%;
+                color: #fff;
+                overflow: hidden;
+                animation: fadein 12s ease-in-out;
+                font-size: 20px;
+                font-weight: lighter;
+            }
+          }
+        .y_img{
+            width: 400px;
+            animation: vibration 1s infinite;
+        }
+    }
+}
+  @keyframes vibration {
+    from {
+      transform: rotate(1deg);
+    }
+    to {
+      transform: rotate(-1deg);
+    }
+  }
+  
+  @keyframes typing{
+    0% {
+      width: 0%;
+    }
+    50% {
+      width: 100%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  @keyframes fadein{
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  
+  }
+
+  // Portfolio page
+  .port-sub{
+    display: flex;
+    .port-m{
+      display: flex;
+    }
+  }
+
+
+// sidebar
+.sidebar{
+  margin-top: 80px;
+  font-family: "Bebas Neue";
+  width: 370px;
+  font-size: 50px;
+  .btn{
+    color: #d5ebd6fa;
+  }
+  .active{
+    color: #88bc8bfa;
+  }
+}
+
+//Port01 page
+.port-t{
+  margin-top: 80px;
+  width: 500px;
+  height: 450px;
+  text-align: center;
+  color: #d5ebd6fa;
+  font-family: "Bebas Neue";
+  &.card-1{
+    margin-left: 100px;
+    background: #fff;
+    color: #000;
+    border-radius: 30px;
+    .todo_day{
+      >span{
+        display: inline-block;
+        width: 100px;
+      }
+    }
+    .todo-i{
+      padding: 30px 0;
+    }
+  }
+}
+
+//Port02 page
+.port02{
+  margin-top: 40px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+
+.port-p{
+  color: #fff;
+}
+
+.box{
+  width: 500px;
+  border: 1px solid black;
+}
+.item-img{
+  width: 400px;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+// .win{border: 10px solid green; color:green;}
+// .lose{border: 10px solid red; color: red;}
+// .tie {border:10px solid blue; color:blue;}
