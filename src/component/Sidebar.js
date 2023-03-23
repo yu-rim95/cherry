@@ -15,7 +15,7 @@ const Sidebar = () => {
                 <p>Rock Paper Scissors</p>
         </NavLink>
         <NavLink to='/Portfolio/Port03' className="btn">
-                <p>Port03</p>
+                <p>Phone Book</p>
         </NavLink>
         <NavLink to='/Portfolio/Port04'className="btn">
                 <p>Port04</p>
