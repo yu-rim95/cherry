@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/cherry/static/css/main.c3db93b7.css",
+    "main.js": "/cherry/static/js/main.463421c9.js",
+    "static/js/787.67ced831.chunk.js": "/cherry/static/js/787.67ced831.chunk.js",
+    "static/media/yurim.png": "/cherry/static/media/yurim.a3c38fb90dfebf2b2310.png",
+    "static/media/BebasNeue-Regular.ttf": "/cherry/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
+    "index.html": "/cherry/index.html",
+    "main.c3db93b7.css.map": "/cherry/static/css/main.c3db93b7.css.map",
+    "main.463421c9.js.map": "/cherry/static/js/main.463421c9.js.map",
+    "787.67ced831.chunk.js.map": "/cherry/static/js/787.67ced831.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3db93b7.css",
+    "static/js/main.463421c9.js"
+  ]
+}
