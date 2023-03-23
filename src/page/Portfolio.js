@@ -3,6 +3,7 @@ import { Routes, Route, useNavigate } from 'react-router'
 import Port from './PortPages/Port'
 import {  Link } from "react-router-dom";
 import Port02 from './PortPages/Port02';
+import Port03 from "./PortPages/Port03";
 import Sidebar from '../component/Sidebar';
 
 const Portfolio = () => {
@@ -22,6 +23,7 @@ const Portfolio = () => {
               <Routes>
                   <Route path='/Port' element={<Port/>} />
                   <Route path='/Port02' element={<Port02/>}/>
+                  <Route path='/Port03' element={<Port03/>}/>
               </Routes>
           </div>
       </div>
