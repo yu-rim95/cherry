@@ -6,6 +6,7 @@ import Contact from './page/Contact';
 import Portfolio from './page/Portfolio';
 import Navbar from './component/Navbar';
 
+
 const Router = () => {
   return (
     <BrowserRouter>
