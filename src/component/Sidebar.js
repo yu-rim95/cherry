@@ -18,7 +18,7 @@ const Sidebar = () => {
                 <p>Phone Book</p>
         </NavLink>
         <NavLink to='/Portfolio/Port04'className="btn">
-                <p>Port04</p>
+                <p>Weather_app</p>
         </NavLink>
     </div>
   )
