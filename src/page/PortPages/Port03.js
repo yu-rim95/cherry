@@ -10,13 +10,11 @@ import ContactList from '../../component/ContactList'
 
 const Port03 = () => {
   return (
-    <div style={{color:""}}>
-      <h1>연락터</h1>
+    <div className='Phon-B'>
+      <h1>Phone Book</h1>
       <Container>
-        <div>
-           <div><Contactfomt/></div>
-           <div><ContactList/></div>
-        </div>
+           <Contactfomt/>
+           <ContactList/>
       </Container>
     </div>
   )

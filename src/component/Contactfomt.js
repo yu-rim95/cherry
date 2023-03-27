@@ -20,7 +20,7 @@ const Contactfomt = () => {
   }
 
   return (
-    <div style={{color:"#fff"}}>
+    <div className='ph-from'>
       <Form onSubmit={addContact}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>이름</Form.Label>

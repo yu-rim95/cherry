@@ -225,7 +225,6 @@ body{background-color:#000}
 .port-t{
   margin-top: 80px;
   width: 500px;
-  height: 450px;
   text-align: center;
   color: #d5ebd6fa;
   font-family: "Bebas Neue";
@@ -233,7 +232,7 @@ body{background-color:#000}
     margin-left: 100px;
     background: #fff;
     color: #000;
-    border-radius: 30px;
+    // border-radius: 30px;
     .todo_day{
       >span{
         display: inline-block;
@@ -248,9 +247,9 @@ body{background-color:#000}
 
 //Port02 page
 .port02{
-  margin-top: 40px;
+  margin-top: 80px;
   background-color: #fff;
-  border-radius: 30px;
+  // border-radius: 30px;
 }
 
 
@@ -274,3 +273,38 @@ body{background-color:#000}
 // .win{border: 10px solid green; color:green;}
 // .lose{border: 10px solid red; color: red;}
 // .tie {border:10px solid blue; color:blue;}
+
+// Port03 page
+.Phon-B{
+  background-color: #fff;
+  margin-left: 100px;
+  margin-top: 80px;
+  width: 500px;
+  text-align: center;
+  font-family: "Bebas Neue";
+  .container{
+    padding: 10px;
+    display: flex;
+    .ph-from{
+      width: 150px;
+      text-align: left;
+      font-weight: bold;
+    }
+    .ph-item{
+      display: flex;
+      align-items: center;
+      padding: 0 0 10px 10px;
+      >div{
+        padding-left: 10px;
+        text-align: left;
+      }
+    }
+    .ph-search{
+      >div{
+        display: flex;
+        font-weight: bold;
+        padding: 0 0 20px 70px;
+      }
+    }
+  }
+}
