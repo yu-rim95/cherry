@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/cherry/static/css/main.676ff948.css",
-    "main.js": "/cherry/static/js/main.2416149f.js",
+    "main.css": "/cherry/static/css/main.a01b7826.css",
+    "main.js": "/cherry/static/js/main.5896272b.js",
     "static/js/787.67ced831.chunk.js": "/cherry/static/js/787.67ced831.chunk.js",
     "static/media/yurim.png": "/cherry/static/media/yurim.a3c38fb90dfebf2b2310.png",
     "static/media/BebasNeue-Regular.ttf": "/cherry/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
     "index.html": "/cherry/index.html",
-    "main.676ff948.css.map": "/cherry/static/css/main.676ff948.css.map",
-    "main.2416149f.js.map": "/cherry/static/js/main.2416149f.js.map",
+    "main.a01b7826.css.map": "/cherry/static/css/main.a01b7826.css.map",
+    "main.5896272b.js.map": "/cherry/static/js/main.5896272b.js.map",
     "787.67ced831.chunk.js.map": "/cherry/static/js/787.67ced831.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.676ff948.css",
-    "static/js/main.2416149f.js"
+    "static/css/main.a01b7826.css",
+    "static/js/main.5896272b.js"
   ]
 }
