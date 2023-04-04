@@ -5,6 +5,7 @@ import {  Link } from "react-router-dom";
 import Port02 from './PortPages/Port02';
 import Port03 from "./PortPages/Port03";
 import Port04 from './PortPages/Port04';
+import Port05 from './PortPages/Port05';
 import Sidebar from '../component/Sidebar';
 
 const Portfolio = () => {
@@ -26,6 +27,7 @@ const Portfolio = () => {
                   <Route path='/Port02' element={<Port02/>}/>
                   <Route path='/Port03' element={<Port03/>}/>
                   <Route path='/Port04' element={<Port04/>}/>
+                  <Route path='/Port05' element={<Port05/>}/>
               </Routes>
           </div>
       </div>

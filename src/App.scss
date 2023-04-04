@@ -277,7 +277,7 @@ body{background-color:#000}
 // Port03 page
 .Phon-B{
   background-color: #fff;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-top: 80px;
   width: 500px;
   text-align: center;
@@ -311,11 +311,30 @@ body{background-color:#000}
 
 // conttact_me_pahe
 .cont-me{
+  padding-top: 100px;
+  color: #fff;
   :link{
     color: #fff;
     
   &:hover {
     background: #ef92a3;
   }
+  }
+}
+.container{
+  padding: 81px;
+}
+.weather-box{
+  border: 2px solid white;
+  padding: 50px;
+ background-color: #fff;
+}
+.git_t{
+  display: flex;
+  font-size: 40px;
+  font-family: "Bebas Neue";
+  p{
+    text-align: center;
+    color: rgba(213, 235, 214, 0.9803921569);
   }
 }

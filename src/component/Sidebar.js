@@ -20,6 +20,9 @@ const Sidebar = () => {
         <NavLink to='/Portfolio/Port04'className="btn">
                 <p>Weather_app</p>
         </NavLink>
+        <NavLink to='/Portfolio/Port05'className="btn" style={{fontWeight:'bold'}}>
+                <p>신조어 퀴즈</p>
+        </NavLink>
     </div>
   )
 }
