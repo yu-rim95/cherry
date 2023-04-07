@@ -1,11 +1,11 @@
 import React from 'react'
-// import Quiz from '../../component/Quiz'
-// import Score from '../../component/Score'
+import Quiz from '../../component/Quiz'
+
 
 const Port05 = () => {
   return (
-    <div style={{color:"#fff"}}>
-      준비중입니다! 
+    <div style={{backgroundColor:"#fff"}}>
+      <Quiz/>
     </div>
   )
 }

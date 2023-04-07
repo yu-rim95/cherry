@@ -44,13 +44,13 @@ const Port = () => {
         <h1>To-do list</h1>
         <div className='todo_day'>
           <span>
-            {todayTime().slice(0,10)}
+            {todayTime().slice(0,9)}
           </span>
           <span>
-            {todayTime().slice(10,13)}
+            {todayTime().slice(9,12)}
           </span>
           <span>
-            {todayTime().slice(13,19)}
+            {todayTime().slice(12,19)}
           </span>
         </div>
         <div className='todo-i'>
