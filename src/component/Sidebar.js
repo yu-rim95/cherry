@@ -8,7 +8,7 @@ const Sidebar = () => {
     // if (location.pathname === "/Portfolio/Port") return null;
   return (
     <div className='sidebar'>
-        <NavLink to='/Portfolio/Port' className="btn">
+        <NavLink to='/Portfolio/Port01' className="btn">
                 <p>to-do list</p>
         </NavLink>
         <NavLink to='/Portfolio/Port02'className="btn">

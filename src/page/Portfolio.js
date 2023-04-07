@@ -1,7 +1,6 @@
 import React from 'react'
 import { Routes, Route, useNavigate } from 'react-router'
-import Port from './PortPages/Port'
-import {  Link } from "react-router-dom";
+import Port01 from './PortPages/Port01';
 import Port02 from './PortPages/Port02';
 import Port03 from "./PortPages/Port03";
 import Port04 from './PortPages/Port04';
@@ -23,7 +22,7 @@ const Portfolio = () => {
           <div className='port-m'>
             <Sidebar/> 
               <Routes>
-                  <Route path='/Port' element={<Port/>} />
+                  <Route path='/Port01' element={<Port01/>} />
                   <Route path='/Port02' element={<Port02/>}/>
                   <Route path='/Port03' element={<Port03/>}/>
                   <Route path='/Port04' element={<Port04/>}/>

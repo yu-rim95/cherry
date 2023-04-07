@@ -25,7 +25,7 @@ a, button {
     text-decoration:none;
     color: inherit; 
 }
-body{background-color:#000}
+
 // nav-style
 .nav-style{
     nav{
@@ -39,10 +39,10 @@ body{background-color:#000}
             display: inline-block;
             padding-top: 10px;
             :hover{
-                background-color: rgb(69, 112, 71);
+                background-color: #AACB73;
             }
             &.active{
-              background-color: rgb(69, 112, 71);
+              background-color: rgb(219, 244, 221);
             }
             >svg{
                 width: 30px;
@@ -55,7 +55,6 @@ body{background-color:#000}
                 font-family: "Bebas Neue";
                 margin-top:8px;
                 text-align: center;
-                color: #d5ebd6fa;
             }
         }
     }
@@ -70,7 +69,7 @@ body{background-color:#000}
 }
 // home
 .glitch{
-    color:white;
+    color:#000;
     font-size:100px;
     position:relative;
     width: 50%;
@@ -90,8 +89,8 @@ body{background-color:#000}
     left:2px;
     text-shadow:-1px 0 red;
     top:0;
-    color:white;
-    background:black;
+    color:#000;
+    background:#fff;
     overflow:hidden;
     clip:rect(0,900px,0,0); 
     animation:noise-anim 2s infinite linear alternate-reverse;
@@ -111,8 +110,8 @@ body{background-color:#000}
     left:-2px;
     text-shadow:1px 0 blue; 
     top:0;
-    color:white;
-    background:black;
+    color:#000;
+    background:#fff;
     overflow:hidden;
     clip:rect(0,900px,0,0); 
     animation:noise-anim-2 3s infinite linear alternate-reverse;
@@ -121,6 +120,7 @@ body{background-color:#000}
 //   about_main
   .about_main{
     margin-top: 80px;
+    color: #000;
     div{
         display: flex;
         justify-content: space-evenly;
@@ -143,21 +143,21 @@ body{background-color:#000}
                     position: absolute;
                     top: 0;
                     left: 0;
-                    color: #fff;
+                    color: #000;
                     overflow: hidden;
                     border-right: 1px solid #fff;
                     animation: typing 6s steps(31);
                 }
             }
             .txt_fadein{
-                // width: 200px;
+                width: 500px;
                 position: absolute;
                 top: 45%;
-                color: #fff;
+                color: #000;
                 overflow: hidden;
                 animation: fadein 12s ease-in-out;
                 font-size: 20px;
-                font-weight: lighter;
+                // font-weight: lighter;
             }
           }
         .y_img{
@@ -214,10 +214,10 @@ body{background-color:#000}
   width: 370px;
   font-size: 50px;
   .btn{
-    color: #d5ebd6fa;
+    color: #88bc8bfa;
   }
   .active{
-    color: #88bc8bfa;
+    color: #618863fa;
   }
 }
 
@@ -344,4 +344,54 @@ body{background-color:#000}
       background-color: #ef92a3;
     }
   }
+}
+
+//투두리스트 port01
+.p01_todo{
+  width: 400px;
+  margin: 50px auto;
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 11px 14px 10px rgb(0 0 0 / 10%);
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  .todo-input{
+    input[type="text"] {
+      padding: 10px;
+      margin-top: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+      outline: none;
+      }
+  } 
+    ul {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+      &li:last-child {
+        border-bottom: none;
+        }
+      &:hover {
+        background-color: #fff;
+        }
+      }
+    }
+    
+  
+
+  
 }
